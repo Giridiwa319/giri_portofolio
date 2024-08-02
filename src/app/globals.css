@@ -1,0 +1,39 @@
+@import url('https://fonts.cdnfonts.com/css/gt-walsheim-trial');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+@layer components{
+  .wrapper{
+    @apply max-w-2xl mx-auto px-6
+  }
+}
+@layer base{
+  :root{
+    --background:#fff;
+    --dark: #1e293b;
+    --display:"GT Walsheim Trial",sans-serif;
+    --body:"Inter",sans-serif;
+    --border:rgba(0, 0, 0, 0.7);
+    --disabled:#cbd5e1;
+  }
+  .dark{
+    --background: #111827;
+    --dark: #1e293b;
+    --display:"GT Walsheim Trial",sans-serif;
+    --border:#fff;
+    --disabled:#cbd5e1;
+  }
+}
+
+@layer base{
+  *{
+   @apply border-border
+  }
+  body{
+    @apply bg-background dark:text-white text-dark font-body
+  }
+}
+
