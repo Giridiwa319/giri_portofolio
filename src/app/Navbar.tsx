@@ -23,7 +23,7 @@ const Navbar = () => {
                             <li><a href="/" className="font-body dark:text-neutral-50">Home</a></li>
                             <li><a href="/About" className="font-body dark:text-neutral-50">About</a></li>
                             <li><a href="/Projects" className="font-body dark:text-neutral-50">Project</a></li>
-                            <li><a href="#" className="font-body dark:text-neutral-50">Contact</a></li>
+                            <li><a href="/Contact" className="font-body dark:text-neutral-50">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
